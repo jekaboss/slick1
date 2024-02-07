@@ -45,9 +45,15 @@
   z-index: 1;
 }
 
-.blok__Getting {
+.blok__Getting--br {
 	margin: 92px 50px;
 	text-align: center;
+	
+}
+@media(max-width: 360px){
+	.blok__Getting--br{
+		margin-top: -150px;
+	}
 }
 .Getting__muz{
 	font-family: "Oswald",sans-serif;
@@ -140,9 +146,10 @@
 	.section__blok{
 		display: flex;
 		flex-direction: column;
+		margin-bottom: -210px;
 	}
 	.Getting{
-		margin-top: 160px;
+		margin-top: 38px;
 	}
 	.blok__image {
     top: -445px;
@@ -368,6 +375,7 @@
 }
 input{
 	background-color: #363535;
+	color: #fff;
 }
 label{
 	font-family: "Source Sans 3",sans-serif;
@@ -411,12 +419,15 @@ label{
 	display: flex;
 	gap: 30px;
 }
+.blok__Getting{
+	text-align: center;
+}
 .blokss__Conditions {
 	font-family: "Oswald",sans-serif;
   font-weight: 500;
 	font-size: 42px;
 	text-align: center;
-	margin-bottom: 40px;
+	margin: 40px;
 }
 .blokss__contribution h3 {
 	font-family: "Oswald",sans-serif;
@@ -503,6 +514,7 @@ label{
 
 .content__blot {
 	display: grid;
+	/* grid-auto-flow: column; */
 	grid-template-columns: 1fr 1fr 1fr;
 	gap: 20px;
 	padding: 16px 0 50px 0;
@@ -544,7 +556,7 @@ label{
 }
 @media (max-width: 360px){
 	.content__blot{
-		align-items: stretch;
+		grid-template-columns: 1fr;
 	}
 	.tatle{
 		align-items: center;
@@ -578,7 +590,7 @@ label{
   height: 345px;
   position: absolute;
   z-index: -50;
-  left: 1181px;
+  left: 1490px;
 	margin-top: 30px;
 }
 .form__tion-tion{
@@ -610,7 +622,7 @@ label{
 }
 @media (max-width: 360px){
 	.blok__form {
-    padding-top: 195px;
+    margin-top: -242px;
 		text-align: center;
   }
 	.form__tion-tion{
@@ -883,6 +895,7 @@ label{
 	.classes__clat p{
 		font-size: 14px;
 	}
+
 }
 /* ======================= */
 
