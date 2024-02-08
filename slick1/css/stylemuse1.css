@@ -46,7 +46,7 @@
 }
 
 .blok__Getting--br {
-	margin: 92px 50px;
+	margin: 40px 50px;
 	text-align: center;
 	
 }
@@ -517,7 +517,7 @@ label{
 	/* grid-auto-flow: column; */
 	grid-template-columns: 1fr 1fr 1fr;
 	gap: 20px;
-	padding: 16px 0 50px 0;
+	padding: 0 0 50px 0;
 }
 .tatle{
 	display: flex;
@@ -590,7 +590,7 @@ label{
   height: 345px;
   position: absolute;
   z-index: -50;
-  left: 1490px;
+  left: 1176px;
 	margin-top: 30px;
 }
 .form__tion-tion{
