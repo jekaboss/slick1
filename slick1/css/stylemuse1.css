@@ -954,3 +954,158 @@ label{
 		flex-direction: column;
 	}
 }
+@media(max-width: 480px){
+	.blok__Getting--br{
+		margin-top: -150px;
+	}
+	.items__image-1{
+		padding-left: 10px;
+	}
+	.section__container{
+		margin-top: -6px;
+	}
+	.section__blok{
+		display: flex;
+		flex-direction: column;
+		margin-bottom: -210px;
+	}
+	.Getting{
+		margin-top: 38px;
+	}
+	.blok__image {
+    top: -445px;
+		z-index: -10;
+	}
+	.items__item{
+		flex-direction: column;
+		gap: 15px;
+		margin: 0 0 15px 0;
+	}
+	.items__ima{
+		flex-direction: column;
+		gap: 15px;
+		margin: 0 0 15px 0;
+	}
+	.items__label{
+		font-family: "Oswald",sans-serif;
+    font-weight: 500;
+		font-size: 18px;
+	}
+	.items__text{
+		font-family: "Source Sans 3",sans-serif;
+    font-weight: 400;
+		font-size: 14px;
+	}
+	.items__image{
+		min-height: 300px;
+	}
+	.form-group input {
+		width: 275px;
+	}
+	.my-info{
+		flex-direction: column;
+	}
+	.form-container{
+		padding-top: 100px;
+	}
+	.blokss__blo{
+		flex-direction: column;
+		gap: 15px;
+	}
+	.cities__blokss{
+		padding: 20px;
+	}
+	.blokss__Conditions{
+		font-family: "Oswald",sans-serif;
+    font-weight: 500;
+		font-size: 32px;
+	}
+	.blokss__contribution h3{
+		font-family: "Oswald",sans-serif;
+    font-weight: 500;
+		font-size: 18px;
+		
+	}
+	.cities__blokss p{
+		font-family: "Source Sans 3",sans-serif;
+    font-weight: 700;
+	  font-size: 18px;
+		margin-bottom: 15px;
+	}
+	.blokss__Price{
+		width: 280px;
+		font-family: "Oswald",sans-serif;
+    font-weight: 500;
+	  font-size: 18px;
+		padding: 0 63px;
+	}
+	.image__blok::before {
+    content: '';
+    position: absolute;
+	  top: -18px;
+    left: -200px;
+    width: 0px;
+    height: 0px;
+    background: linear-gradient(0.00deg, rgb(0, 0, 0) 0.97%,rgba(0, 0, 0, 0) 99.127%);
+    z-index: -10;
+  }
+	.content__blot{
+		grid-template-columns: 1fr;
+	}
+	.tatle{
+		align-items: center;
+		text-align: center;
+	}
+	.blok__form {
+    margin-top: -242px;
+		text-align: center;
+  }
+	.form__tion-tion{
+		flex-direction: column;
+		margin-top: 150px;
+	}
+	.form__tion{
+		left: 40px;
+		width: 300px;
+		margin-top: 155px;
+	}
+	.form__tion-form{
+		margin-top: 140px;
+	}
+	.form-container{
+		padding-top: 31px;
+	}
+	.wet__secti h2{
+		font-size: 18px;
+	}
+	.wet__secti p{
+		font-size: 14px;
+	}
+	.wet__wet{
+		padding-top: 180px;
+	}
+	.section__wet img{
+		width: 50px;
+	}
+	.fare__whale-fare{
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+	}
+	.whale__fare-fare{
+		flex-direction: column;
+		gap: 15px;
+	}
+	.fare__whale{
+		padding: 22px 20px;
+	}
+	.clas__classes{
+		flex-direction: column;
+	}
+	.classes__clat p{
+		font-size: 14px;
+	}
+	.swiper-wrapper{
+		flex-direction: column;
+	}
+}
