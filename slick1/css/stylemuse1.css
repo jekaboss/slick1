@@ -83,8 +83,18 @@
 	top: -18px;
   left: 235px;
   width: 65px;
-  height: 470px;
+  height: 333px;
   background: linear-gradient(-90.00deg, rgb(0, 0, 0) 0.97%,rgba(0, 0, 0, 0) 99.127%);
+  z-index: 1;
+}
+.blok__image::before {
+  content: '';
+  position: absolute;
+	top: -18px;
+  left: -2px;
+  width: 65px;
+  height: 345px;
+  background: linear-gradient(90.00deg, rgb(0, 0, 0) 0.97%,rgba(0, 0, 0, 0) 99.127%);
   z-index: 1;
 }
 	.Getting__muz{
@@ -154,7 +164,7 @@
 	.blok__image {
     top: -445px;
 		z-index: -10;
-}
+  }
 	.blok__image-is::before {
   content: '';
   position: absolute;
@@ -345,7 +355,6 @@
 	padding-bottom: 20px;
 	text-align: center;
 }
-
 .form-group input {
   width: 545px;
   padding: 8px;
@@ -603,6 +612,7 @@ label{
 @media (max-width: 1280px){
 	.form__tion{
 		left: 630px;
+		z-index: 1;
 	}
 	.tion__form{
 		width: 350px;
@@ -633,6 +643,7 @@ label{
 		left: 40px;
 		width: 300px;
 		margin-top: 155px;
+		
 	}
 	.form__tion-form{
 		margin-top: 140px;
@@ -794,8 +805,6 @@ label{
 	width: 330px;
 	height: 275px;
 }
-
-
 .product__link img{
 	border-radius: 16px;
 	margin: 32px 24px;
@@ -817,7 +826,6 @@ label{
 	font-size: 18px;
 	text-align: center;
 }
-
 @media (max-width: 1280px){
 	.product__link img{
 		width: 252px;
@@ -895,12 +903,10 @@ label{
 	.classes__clat p{
 		font-size: 14px;
 	}
-
 }
 /* ======================= */
 
 .info-promo{
-	
 	flex-direction: column;
 }
 .promo__content{
@@ -913,7 +919,6 @@ label{
 	max-width: 430px;
 	margin-left: 75px;
 }
-
 .slide__unique{
 	display: flex;
 	gap: 20px;
@@ -953,7 +958,13 @@ label{
 	.swiper-wrapper{
 		flex-direction: column;
 	}
+	.items__image-1 img {
+		margin-right: 100px;
+	}
 }
+
+/* ================================================ */
+
 @media(max-width: 450px){
 	.blok__Getting--br{
 		margin-top: -150px;
@@ -961,8 +972,11 @@ label{
 	.items__image-1{
 		padding-left: 10px;
 	}
+	.slider__pagination {
+		position: absolute;
+	}
 	.section__container{
-		margin-top: -6px;
+		margin-top: -34px;
 	}
 	.section__blok{
 		display: flex;
@@ -973,13 +987,25 @@ label{
 		margin-top: 38px;
 	}
 	.blok__image {
-    top: -445px;
+    top: -425px;
 		z-index: -10;
+	}
+	.blokss__Price {
+		padding-left: 50px;
+	}
+	.items__bolok{
+		padding: 25px 30px;
+	}
+	.items__image-1 img {
+		margin-left: 12%;
 	}
 	.items__item{
 		flex-direction: column;
 		gap: 15px;
 		margin: 0 0 15px 0;
+	}
+	.swiper-wrapper {
+		padding-left: 40px;
 	}
 	.items__ima{
 		flex-direction: column;
@@ -999,8 +1025,15 @@ label{
 	.items__image{
 		min-height: 300px;
 	}
+
+	.form{
+		/* padding-left: 30px; */
+	}
+	.btn-submit {
+		margin-right: 38px;
+	}
 	.form-group input {
-		width: 275px;
+		/* width: 367px; */
 	}
 	.my-info{
 		flex-direction: column;
@@ -1037,7 +1070,8 @@ label{
 		font-family: "Oswald",sans-serif;
     font-weight: 500;
 	  font-size: 18px;
-		padding: 0 63px;
+		/* padding: 0 63px; */
+		padding-left: 100px;
 	}
 	.image__blok::before {
     content: '';
@@ -1049,6 +1083,49 @@ label{
     background: linear-gradient(0.00deg, rgb(0, 0, 0) 0.97%,rgba(0, 0, 0, 0) 99.127%);
     z-index: -10;
   }
+	
+	.blok__image-is{
+		margin-top: -35px;
+	}
+	.blok__image-is::before {
+    content: '';
+    position: absolute;
+	  top: 116px;
+    left: 0px;
+    width: 447px;
+    height: 65px;
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0.97%,rgba(0, 0, 0, 0) 99.127%);
+    z-index: 1;
+  }
+	.blok__image-is img{
+		left: 8px;
+		height: 175px;
+	}
+	.blok__Getting{
+		text-align: center;
+	}
+	.Getting__muz{
+	font-family: "Oswald",sans-serif;
+  font-weight: 500;
+	font-size: 18px;
+	margin-bottom: 20px;
+  }
+  .Getting__lit{
+	font-family: "Oswald",sans-serif;
+  font-weight: 500;
+	font-size: 32px;
+	margin-bottom: 20px;
+  }
+  .Getting p{
+	font-family: "Source Sans 3",sans-serif;
+  font-weight: 400;
+	font-size: 14px;
+	padding-bottom: 20px;
+  }
+	.blok__section-blok img{
+		left: -1000px;
+		display: none;
+	}
 	.content__blot{
 		grid-template-columns: 1fr;
 	}
@@ -1064,10 +1141,19 @@ label{
 		flex-direction: column;
 		margin-top: 150px;
 	}
+	.footer__info{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.footer__about{
+		align-items: center;
+	}
 	.form__tion{
-		left: 40px;
+		left: 25px;
 		width: 300px;
 		margin-top: 155px;
+		z-index: 1;
 	}
 	.form__tion-form{
 		margin-top: 140px;
@@ -1108,4 +1194,4 @@ label{
 	.swiper-wrapper{
 		flex-direction: column;
 	}
-}
+} 
