@@ -1195,3 +1195,18 @@ label{
 		flex-direction: column;
 	}
 } 
+@media(max-width: 396px){
+	.blok__image-is::before {
+    content: '';
+    position: absolute;
+    top: 116px;
+    left: 0px;
+    width: 447px;
+    height: 67px;
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0.97%,rgba(0, 0, 0, 0) 99.127%);
+    z-index: 1;
+  }
+	.blokss__Price{
+		padding-left: 45px;
+	}
+}
