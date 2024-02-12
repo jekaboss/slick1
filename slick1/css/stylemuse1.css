@@ -1207,7 +1207,26 @@ label{
     background: linear-gradient(0deg, rgb(0, 0, 0) 0.97%,rgba(0, 0, 0, 0) 99.127%);
     z-index: 1;
   }
-	.blokss__Price{
-		padding-left: 45px;
+	@media(max-width: 1980px){
+	.blok__image-is::before {
+            content: '';
+            position: absolute;
+            top: 116px;
+            left: 400px;
+            width: 447px;
+            height: 300px;
+            background: linear-gradient(0deg, rgb(0, 0, 0) 0.97%,rgba(0, 0, 0, 0) 99.127%);
+            z-index: 1;
 	}
+	.blok__image::before {
+            content: '';
+            position: absolute;
+            top: -18px;
+            left: -2px;
+            width: 65px;
+            height: 303px;
+            background: linear-gradient(90.00deg, rgb(0, 0, 0) 0.97%,rgba(0, 0, 0, 0) 99.127%);
+            z-index: 1;
+         }
 }
+
