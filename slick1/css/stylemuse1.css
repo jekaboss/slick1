@@ -973,7 +973,7 @@ label{
 		padding-left: 10px;
 	}
 	.slider__pagination {
-		position: absolute;
+
 	}
 	.section__container{
 		margin-top: -34px;
@@ -1067,12 +1067,12 @@ label{
 		margin-bottom: 15px;
 	}
 	.blokss__Price{
-		width: 280px;
+		width: 289px;
 		font-family: "Oswald",sans-serif;
     font-weight: 500;
 	  font-size: 18px;
 		/* padding: 0 63px; */
-		padding-left: 100px;
+		padding-left: 55px;
 	}
 	.image__blok::before {
     content: '';
