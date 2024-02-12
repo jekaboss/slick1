@@ -956,7 +956,7 @@ label{
 @media (max-width: 768px){}
 @media (max-width: 360px){
 	.swiper-wrapper{
-		flex-direction: column;
+		
 	}
 	.items__image-1 img {
 		margin-right: 100px;
