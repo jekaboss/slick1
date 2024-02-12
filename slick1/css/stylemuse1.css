@@ -1193,7 +1193,7 @@ label{
 		font-size: 14px;
 	}
 	.swiper-wrapper{
-		flex-direction: column;
+		
 	}
 } 
 @media(max-width: 396px){
