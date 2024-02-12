@@ -998,7 +998,7 @@ label{
 		padding: 25px 30px;
 	}
 	.items__image-1 img {
-		margin-left: 0;
+		margin-left: 15px;
 	}
 	.items__item{
 		flex-direction: column;
