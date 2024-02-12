@@ -30,7 +30,7 @@
 	top: -18px;
   left: 335px;
   width: 65px;
-  height: 443px;
+  height: 300px;
   background: linear-gradient(-90.00deg, rgb(0, 0, 0) 0.97%,rgba(0, 0, 0, 0) 99.127%);
   z-index: 1;
 }
@@ -40,7 +40,7 @@
 	top: -18px;
   left: -2px;
   width: 65px;
-  height: 443px;
+  height: 300px;
   background: linear-gradient(90.00deg, rgb(0, 0, 0) 0.97%,rgba(0, 0, 0, 0) 99.127%);
   z-index: 1;
 }
