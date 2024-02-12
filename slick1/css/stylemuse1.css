@@ -978,6 +978,7 @@ label{
 	.section__container{
 		margin-top: -34px;
 	}
+	
 	.section__blok{
 		display: flex;
 		flex-direction: column;
@@ -997,7 +998,7 @@ label{
 		padding: 25px 30px;
 	}
 	.items__image-1 img {
-		margin-left: 12%;
+		margin-left: 0;
 	}
 	.items__item{
 		flex-direction: column;
